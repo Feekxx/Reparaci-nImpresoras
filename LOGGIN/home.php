@@ -19,9 +19,11 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-color: var(--color-fondo);
+        background-color: rgba(0, 0, 0, 0);
       }
-
+      img {
+        background-opacity: 0.5;
+      }
       nav {
         background-color: var(--color-primario);
         color: #fff;

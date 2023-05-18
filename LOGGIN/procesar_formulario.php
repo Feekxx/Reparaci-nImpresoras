@@ -4,12 +4,7 @@ include('db.php');
 $modelo = $_POST['modelo'];
 $descripcion = $_POST['descripcion'];
 
-// Conectamos a la base de datos
-/*$host = 'localhost';
-$usuario = 'nombre_usuario';
-$contrasena = 'contraseña';
-$base_datos = 'nombre_base_datos';
-$conexion = mysqli_connect($host, $usuario, $contrasena, $base_datos);*/
+
 
 // Verificamos que la conexión a la base de datos sea exitosa
 if (!$conexion) {
