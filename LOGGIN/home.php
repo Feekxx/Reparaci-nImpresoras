@@ -21,9 +21,17 @@
         background-repeat: no-repeat;
         background-color: rgba(0, 0, 0, 0);
       }
-      img {
-        background-opacity: 0.5;
-      }
+    /*.cajon{
+          width: 500px;
+          height: 350px;
+          border-radius: 5%;
+          position: absolute;
+          top: 350px;
+          left: calc(50% - 50px);
+         
+          margin-left: 0%;
+
+      }*/
       nav {
         background-color: var(--color-primario);
         color: #fff;
@@ -99,17 +107,19 @@
   </nav>
 
   <!-- Sección de inicio -->
-  <section id="inicio">
-    <h1>Bienvenidos al Taller de Reparación de Impresoras 3D</h1>
-    <p>En nuestro taller ofrecemos un servicio de reparación de impresoras 3D de alta calidad y a precios competitivos. ¡Contáctanos para solicitar una reparación!</p>
-    <form action="procesar_formulario.php" method="post">
-      <label for="modelo">Modelo de la impresora:</label>
-      <input type="text" id="modelo" name="modelo" required>
-      <label for="descripcion">Descripción del problema:</label>
-      <textarea id="descripcion" name="descripcion" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+  <div>
+    <section id="inicio">
+      <h1>Bienvenidos al Taller de Reparación de Impresoras 3D</h1>
+      <p>En nuestro taller ofrecemos un servicio de reparación de impresoras 3D de alta calidad y a precios competitivos. ¡Contáctanos para solicitar una reparación!</p>
+      <form action="procesar_formulario.php" method="post">
+        <label for="modelo">Modelo de la impresora:</label>
+        <input type="text" id="modelo" name="modelo" required>
+        <label for="descripcion">Descripción del problema:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </div>
 
   <!-- Sección de seguimiento -->
   <section id="seguimiento">
