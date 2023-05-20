@@ -122,6 +122,9 @@
     </form>
   </section>
 
+  <h1>Tabla de reparaciones</h1>
+  <?php include 'busqueda.php'; ?>
+
   <!-- Sección de contacto -->
   <section id="contacto">
     <h2>Contacto</h2>
